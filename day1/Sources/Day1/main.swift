@@ -1,0 +1,12 @@
+//import Platform
+
+print("Hello, world!")
+
+// ACCORDING TO A STACK OVERFLOW POST IN 2016,
+// THE SWIFT STANDARD LIBRARY DOES NOT CONTAIN
+// THE ABILITY TO OPEN A FILE.
+//
+// IS THIS REALLY A LANGUAGE THAT I WANT TO BE
+// LEARNING?
+
+let fd = Platform.open( "input.txt", "r" )
